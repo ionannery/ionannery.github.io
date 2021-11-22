@@ -1,0 +1,30 @@
+body {
+    text-align:center;
+    background-color: #003249;
+    font-family:monospace;
+    font-size: 20px;
+    color: white;
+    line-height: 30px
+}
+
+li {
+    list-style: none;
+}
+
+#minhafoto {
+    border-radius: 40%;
+}
+
+a{
+    color: black;
+}
+
+.sociais a {
+    padding: 10px;
+    
+}
+.sociais img {
+    padding-top: 10px;
+    margin-left: auto;
+    display:inline;
+}
