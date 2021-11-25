@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 body {
@@ -21,33 +21,120 @@ nav ul{
     background: #0A0908;
     padding: 20px;
     margin: 0;
+    position: relative;
 }
 
 nav ul a{
     font-family: 'Courier New', Courier, monospace;
-    color: white;
+    color: #F2F4F3;
     text-decoration: none;
     font-size: 25px;
     font-weight: 700;
 }
 
+a:hover {
+    color: #A9927D;
+}
+
+p a:hover{
+    color: #A9927D;
+}
+
+    /* Descrição e foto  */
+
 article {
     position: relative;
     display: inline-block;
+    margin-left: 300px;
+    background: #5E503F;
+}
 
+article h2 {
+    font-size: 40px;
+}
+
+article p {
+    font-size: 25px;
 }
 
 .descricao {
     position: absolute;
-    width: 400px;
+    width: 500px;
     left: 600px;
     top: 70px;
-  
+    color: #F2F4F3;
+
+}
+
+.descricao a {
+    text-decoration: none;
+    color: #0A0908;
+    font-weight: 700;
 }
 
 .minhafoto img {
     border-radius: 50%;
-    margin-top: 40px;
+    margin-top: 60px;
     position: absolute;
     left: 100px;
+    width: 450px;
+}
+
+     /* Habilidades  */
+
+.softskills{
+    margin-top: 600px;
+    margin-left: 350px;
+}
+
+.hardskills {
+    margin-top: -180px;
+    margin-left: 1100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer p {
+    font-weight: 700;
+    font-size: 20px;;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+
+footer p ul {
+    padding: 0;
+}
+
+.footer-sociais {
+    text-align: center;
+    background-color: #0A0908;
+
+}
+
+.footer-sociais a {
+    padding: 10px;
+}
+
+.footer-sociais a:hover {
+    filter:saturate(5);
 }
