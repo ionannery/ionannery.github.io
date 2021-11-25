@@ -46,7 +46,6 @@ article {
     position: relative;
     display: inline-block;
     margin-left: 300px;
-    background: #5E503F;
 }
 
 article h2 {
@@ -90,28 +89,10 @@ article p {
 .hardskills {
     margin-top: -180px;
     margin-left: 1100px;
-
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Footer */
+    /* Footer */
 
 footer p {
     font-weight: 700;
