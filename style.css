@@ -13,7 +13,7 @@ body {
 
     /* Menu Navegação */
 
-nav ul{
+    nav ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -82,13 +82,14 @@ article p {
      /* Habilidades  */
 
 .softskills{
-    margin-top: 600px;
-    margin-left: 350px;
+    margin-top: -235px;
+    margin-left: 1000px;
+    margin-bottom: 70px;
 }
 
 .hardskills {
-    margin-top: -180px;
-    margin-left: 1100px;
+    margin-top: 600px;
+    margin-left: 350px;
 }
 
 
@@ -103,13 +104,19 @@ footer p {
 .footer-sociais {
     text-align: center;
     background-color: #0A0908;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .footer-sociais a {
-    padding: 10px;
+    padding: 5px;
 }
 
 .footer-sociais a:hover {
     filter:saturate(5);
+}
+
+#copy {
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
 }
